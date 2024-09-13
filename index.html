@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, PaymentPage, Projeto">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Página voltada para a aprendizagem da tecnologia HTML5 & CSS3">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="author" content="Nicolas Caua Alves Pereira">
+    <meta name="robots" content="index, all">
+
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="top-box">
+            <p><span class="left-icon">&#x2190;</span>CHECKOUT<span class="right-icon">&#xb7;&#xb7;&#xb7;</span></p>
+        </div>
+    
+        <div class="middle-box">
+            <h1>1.549<span>R$</span></h1>
+            <p>Pagar para XYZ Company Ltd</p>
+        </div>
+
+        <div class="bottom-box">
+            <button type="button" class="payment-option-btn">Pagar com PayPal</button>
+            <button type="button" class="payment-option-btn">Pagar Usando Net Banking</button>  
+            
+            <div class="card-details">
+                <p>Pagar usando cartão de Credito ou Debito</p>
+
+                <div class="card-num-field-group">
+                    <label>Número do cartão</label><br>
+                    <input type="text" class="card-num-field" placeholder="xxxx-xxxx-xxxx-xxxx">
+                </div>
+
+                <div class="date-field-group">
+                    <label>Validade</label><br>
+                    <input type="text" id="input" class="date-field" placeholder="mm">
+                    <input type="text" class="date-field" placeholder="yyyy">
+                </div>
+
+                <div class="cvc-field-group">
+                    <label>CVC</label><br>
+                    <input type="password" class="cvc-field" placeholder="xxx">
+                </div>
+
+                <div class="name-field-group">
+                    <label>Nome do titular</label><br>
+                    <input type="text" class="name-field" placeholder="Nome completo">
+                </div>
+                <button type="button" class="pay-btn">Pagar Agora</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
